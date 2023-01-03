@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Runserver Agency-API",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/.venv/bin/uvicorn",
+            "args": [
+                "main:app",
+
+            ]
+        },
+        // {
+        //     "name": "Runserver Agency-API",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/.venv/bin/pytest",
+        //     "args": [
+        //         // "tests/reservation/"
+        //         "tests/reservation/reservation_test.py"
+        //         // "tests/reservation/reservation_get_test.py"
+        //         // "tests/reservation/reservation_cancel_test.py"
+        //     ],
+        // }
+    ]
+}
